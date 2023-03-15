@@ -1,5 +1,5 @@
-const navbarNav = document.getElementsByClassName("navbar__nav");
+const navbarNav = document.querySelector(".navbar__nav");
 
-document.getElementById("hamb-menu").oncklick = () => {
+document.querySelector("#hamb-menu").onclick = () => {
   navbarNav.classList.toggle("active");
 };
