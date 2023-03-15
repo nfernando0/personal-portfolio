@@ -88,6 +88,14 @@ body {
   }
   .navbar .navbar__nav.active {
     right: 0;
+    transition: 0.5s;
+  }
+
+  .navbar .navbar__nav a {
+    display: flex;
+    padding: 0.5rem;
+    margin: 1.5rem;
+    font-size: 2rem;
   }
 }
 
