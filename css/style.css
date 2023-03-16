@@ -134,6 +134,9 @@ body {
 .about .row .content p {
   font-size: 1.3rem;
 }
+.about .about__icon {
+  display: block;
+}
 
 /* Media Queries */
 
