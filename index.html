@@ -13,6 +13,9 @@
       rel="stylesheet"
     />
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Icon -->
     <script src="https://unpkg.com/feather-icons"></script>
 
@@ -29,7 +32,7 @@
       <div class="navbar__nav">
         <a href="#">Home</a>
         <a href="#about">About</a>
-        <a href="#certification">Certification</a>
+        <a href="#certi">Certification</a>
         <a href="#project">Project</a>
         <a href="#contact">Contact</a>
       </div>
@@ -43,8 +46,8 @@
     <section class="hero" id="hero">
       <main class="content">
         <h1>Hello 👋, I'm <span>Georgy Octavianus Fernando</span></h1>
-        <h4>Entry Level Programmer | Photography</h4>
-        <a href="#" class="about__me">About Me</a>
+        <h4>Entry Level Programmer & Photography</h4>
+        <a href="#about" class="about__me">About Me</a>
       </main>
     </section>
     <!-- End Hero Section -->
@@ -54,7 +57,12 @@
       <h1>About Me</h1>
       <div class="row">
         <div class="about__img">
-          <img src="profile.jpg" alt="profile" />
+          <img
+            src="dummy.jpg"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            alt="profile"
+          />
         </div>
         <div class="content">
           <p>
@@ -65,25 +73,40 @@
             individually, quickly learn new things and ready to work under
             pressure
           </p>
-          <div class="about__icon">
-            <p>
-              <i data-feather="mail"></i>
-              nandof986@gmail.com
-            </p>
-            <p>
-              <i data-feather="mail"></i>
-              nandof986@gmail.com
-            </p>
+          <div class="mail__icon">
+            <i data-feather="mail"></i>
+            <p>nandof986gmail.com</p>
+          </div>
+          <div class="phone__icon">
+            <i data-feather="phone"></i>
+            <p>+62 813-8586-8743</p>
+          </div>
+          <div class="map__icon">
+            <i data-feather="map"></i>
+            <p>Cileungsi, Bogor</p>
           </div>
         </div>
       </div>
     </section>
     <!-- End Section About -->
 
+    <!-- Certification Section -->
+    <section class="certi" id="certi">
+      <h1>Certification</h1>
+    </section>
+    <!-- End Section Certification -->
+
     <!-- Icon -->
     <script>
       feather.replace();
     </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- AOS -->
 
     <script src="js/main.js"></script>
   </body>

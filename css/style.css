@@ -5,10 +5,6 @@
   --bg: #146c94;
 }
 
-body {
-  margin-bottom: 1000px;
-}
-
 * {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
@@ -21,9 +17,9 @@ body {
 }
 body {
   background-color: var(--bg);
-  color: #ffffff;
+  color: #fff;
+  margin-bottom: 80rem;
 }
-
 /* Navbar */
 
 .navbar {
@@ -43,18 +39,18 @@ body {
 .navbar .nav__logo {
   font-size: 2rem;
   font-weight: bold;
-  color: #ffffff;
+  color: #fff;
   letter-spacing: 3px;
 }
 
 .navbar .navbar__nav a {
-  color: #ffffff;
+  color: #fff;
   display: inline-block;
   font-size: 1.2rem;
   margin: 0 1rem;
 }
 .navbar .navbar__nav a:hover {
-  color: #000;
+  color: var(--primary);
 }
 
 .navbar .nav__icon .btn {
@@ -123,19 +119,47 @@ body {
   flex: 1 1 45rem;
 }
 .about .row .about__img img {
-  width: 100%;
-  height: 45%;
+  width: 50%;
+  margin: auto;
+  display: flex;
 }
 
 .about .row .content {
   flex: 1 1 35rem;
   padding: 0 1rem;
 }
-.about .row .content p {
+.about .row .content > p {
   font-size: 1.3rem;
+  margin: 2rem 0;
 }
 .about .about__icon {
   display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: salmon;
+}
+
+.about .mail__icon,
+.phone__icon,
+.map__icon {
+  display: flex;
+  align-items: center;
+}
+.about .mail__icon p,
+.phone__icon p,
+.map__icon p {
+  font-size: 1.2rem;
+  margin-left: 1.2rem;
+}
+
+.about .phone__icon,
+.map__icon {
+  margin-top: 1.2rem;
+}
+
+.certi {
+  padding: 8rem 7% 1.4rem;
 }
 
 /* Media Queries */
