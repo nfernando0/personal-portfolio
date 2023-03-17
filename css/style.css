@@ -161,6 +161,18 @@ body {
 .certi {
   padding: 8rem 7% 1.4rem;
 }
+.certi h1 {
+  font-size: 2.6rem;
+  
+}
+
+.certi .row {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 /* Media Queries */
 
