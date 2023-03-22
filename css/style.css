@@ -106,6 +106,7 @@ body {
 
 .about {
   padding: 8rem 7% 1.4rem;
+  background-color: var(--secondary);
 }
 .about h1 {
   font-size: 2.6rem;
@@ -158,12 +159,23 @@ body {
   margin-top: 1.2rem;
 }
 
+.skill {
+  padding: 4rem 7%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--secondary);
+}
+
 .certi {
   padding: 8rem 7% 1.4rem;
 }
 .certi h1 {
   font-size: 2.6rem;
-  
+}
+
+.certi .card {
+  margin: 1rem;
 }
 
 .certi .row {
