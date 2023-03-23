@@ -58,13 +58,13 @@
       <div class="row">
         <div class="about__img">
           <img
-            src="dummy.jpg"
+            src="https://placeholder.com/450x450"
             data-aos="fade-right"
             data-aos-duration="1000"
             alt="profile"
           />
         </div>
-        <div class="content">
+        <div class="content" data-aos="fade-left" data-aos-duration="1000">
           <p>
             I am a fresh graduate from System Information at Mercubuana
             University which have knowladge in programming especially web
@@ -93,8 +93,91 @@
     <!-- Certification Section -->
     <section class="certi" id="certi">
       <h1>Certification</h1>
+
+      <div class="row">
+        <div class="col">
+          <div class="card" data-aos="fade-right" data-aos-duration="1000">
+            <div class="card__img">
+              <img src="https://placeholder.com/200x200" alt="" />
+            </div>
+          </div>
+          <div class="card" data-aos="fade-right" data-aos-duration="1500">
+            <div class="card__img">
+              <img src="https://placeholder.com/200x200" alt="" />
+            </div>
+          </div>
+          <div class="card" data-aos="fade-right" data-aos-duration="2000">
+            <div class="card__img">
+              <img src="https://placeholder.com/200x200" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-aos="fade-right" data-aos-duration="1000">
+            <div class="card__img">
+              <img src="https://placeholder.com/200x200" alt="" />
+            </div>
+          </div>
+          <div class="card" data-aos="fade-right" data-aos-duration="1500">
+            <div class="card__img">
+              <img src="https://placeholder.com/200x200" alt="" />
+            </div>
+          </div>
+          <div class="card" data-aos="fade-right" data-aos-duration="2000">
+            <div class="card__img">
+              <img src="https://placeholder.com/200x200" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-aos="fade-right" data-aos-duration="1000">
+            <div class="card__img">
+              <img src="https://placeholder.com/200x200" alt="" />
+            </div>
+          </div>
+          <div class="card" data-aos="fade-right" data-aos-duration="1500">
+            <div class="card__img">
+              <img src="https://placeholder.com/200x200" alt="" />
+            </div>
+          </div>
+          <div class="card" data-aos="fade-right" data-aos-duration="2000">
+            <div class="card__img">
+              <img src="https://placeholder.com/200x200" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- End Section Certification -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h1>Contact Me</h1>
+
+      <div class="row">
+        <div class="col">
+          <div class="contact-form">
+            <h2>Form Kontak</h2>
+            <form>
+              <label for="name">Nama</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="subject">Subjek</label>
+              <input type="text" id="subject" name="subject" required />
+
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" required></textarea>
+
+              <input type="submit" value="Kirim" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section Contact -->
 
     <!-- Icon -->
     <script>
@@ -102,11 +185,12 @@
     </script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS -->
     <script>
       AOS.init();
     </script>
 
-    <!-- AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
 
     <script src="js/main.js"></script>
   </body>

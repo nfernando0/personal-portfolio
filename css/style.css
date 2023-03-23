@@ -162,6 +162,73 @@ body {
   padding: 8rem 7% 1.4rem;
 }
 
+.certi h1 {
+  font-size: 2.6rem;
+}
+
+.certi .col {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Contact */
+
+.contact {
+  padding: 8rem 7% 1.4rem;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+}
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: var(--primary);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form form label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #000;
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4caf50;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.contact-form form input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
 /* Media Queries */
 
 /* Laptop Devices */
@@ -203,6 +270,9 @@ body {
 
   .about .row {
     display: block;
+  }
+  .contact .content {
+    flex-wrap: wrap;
   }
 }
 
