@@ -180,8 +180,9 @@ body {
 
 .certi .row {
   display: flex;
-  margin-top: 2rem;
+  margin: 2rem auto;
   gap: 1rem;
+  width: 90%;
   justify-content: center;
   flex-wrap: wrap;
 }
