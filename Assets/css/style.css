@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+}
+
+:root {
+  --primary: #4b4e6d;
+  --bg: #95a3b3;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+}
+
+/* Navbar Section */
+.nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  background-color: #4b4e6d;
+  top: 0;
+  left: 0;
+  padding: 2rem 7%;
+  justify-content: space-between;
+}
+
+.nav .navbar__brand {
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.nav .navbar__ul {
+  display: flex;
+}
+
+.nav .navbar__ul .navbar__li a {
+  color: var(--white);
+  display: inline-block;
+  margin: 0 2rem;
+  font-size: 1.3rem;
+}
+
+.nav .nav__hamb {
+  font-size: 1.5rem;
+  color: var(--white);
+  display: none;
+}
+
+/* Responsive  */
+
+/* Mobile */
+@media (max-width: 575.98px) {
+  html {
+    font-size: 20%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 991.98px) {
+  html {
+    font-size: 80%;
+  }
+
+  .nav .nav__hamb {
+    display: block;
+  }
+
+  .nav .navbar__ul {
+    position: absolute;
+    right: -100%;
+    top: 100%;
+    height: 100vh;
+    width: 20rem;
+    background-color: var(--primary);
+    display: block;
+    text-align: center;
+  }
+
+  .nav .navbar__ul.active {
+    right: 0;
+  }
+
+  .nav .navbar__ul .navbar__li a {
+    color: var(--white);
+    margin: 2rem;
+  }
+}
+
+/* Dekstop */
+@media (max-width: 1199.98px) {
+  html {
+    font-size: 90%;
+  }
+}
