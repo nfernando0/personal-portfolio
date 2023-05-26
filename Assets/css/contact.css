@@ -1,0 +1,48 @@
+:root {
+  --bg: #d0d0d0;
+  --primary: #035e7b;
+  --sec: #eff1c5;
+}
+.contact {
+  text-align: center;
+}
+.contact h1 {
+  margin-top: 10rem;
+}
+.contact .container form {
+  margin: auto;
+  width: 30%;
+}
+.contact .container .form__group input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.contact .container .form__group .msg {
+    border-radius: 0.2rem;
+  width: 100%;
+  resize: none;
+  height: 5rem;
+  padding: 0.5rem;
+}
+
+.contact .container .form__group label {
+  float: left;
+}
+.contact .container .form__group {
+  display: block;
+  margin: 1rem 0;
+}
+.contact .container form .btn {
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  background-color: var(--primary);
+  color: var(--sec);
+  border: none;
+  border-radius: 0.5rem;
+}
+.contact .container .btn__div {
+  float: left;
+}

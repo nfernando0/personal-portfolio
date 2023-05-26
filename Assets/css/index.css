@@ -1,0 +1,35 @@
+:root {
+    --bg: #d0d0d0;
+    --primary: #035E7B;
+    --sec: #EFF1C5;
+}
+.hero {
+  padding: 0 7%;
+}
+.hero .container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.hero .container .left h1 {
+    font-size: 2rem;
+}
+.hero .container .left span {
+    display: block;
+}
+.hero .container .left h4 {
+    font-weight: 300;
+    margin: 0.5rem;
+}
+
+.hero .container .left .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: var(--primary);
+    color: var(--sec);
+    box-sizing: 0 0 15px rgba(0, 0, 0, 0.5);
+}
