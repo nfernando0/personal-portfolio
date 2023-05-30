@@ -6,13 +6,13 @@
   list-style: none;
 }
 :root {
-  --bg: #d0d0d0;
+  --bgRed: #f7f4f4;
   --primary: #035e7b;
   --sec: #eff1c5;
 }
 body {
   font-family: "poppins", sans-serif;
-  background-color: var(--bg);
+  background-color: var(--bgRed);
 }
 
 /* Navbar */
@@ -23,7 +23,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  background-color: var(--primary);
+  background-color: #fff;
   left: 0;
   padding: 1rem 7%;
 }
@@ -32,14 +32,14 @@ body {
 }
 
 .nav .navbar__brand {
-  color: #fff;
+  color: #000;
 }
 .nav .navbar__ul a {
   display: inline-block;
   margin: 0 1rem;
 }
 .nav .navbar__ul .active {
-  color: var(--sec);
+  color: var(--primary);
 }
 .nav .navbar__hamb {
   display: none;
@@ -48,7 +48,7 @@ body {
 .nav .navbar__hamb i {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #fff;
+  color: #000;
 }
 
 footer {
@@ -78,7 +78,7 @@ footer p {
     top: 100%;
     right: -100%;
     height: 100vh;
-    background-color: var(--primary);
+    background-color: #fff;
     display: block;
     width: 20rem;
     transition: 0.5s;
@@ -93,12 +93,21 @@ footer p {
   .about .container {
     flex-wrap: wrap;
   }
-  .about .container .right p  {
+  .about .container .right p {
     max-width: 100% !important;
   }
   .about .container .left img {
     margin: 2rem auto;
     display: flex;
     float: inherit !important;
+  }
+  .project .container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 20px;
+  } 
+  .project .container .card {
+    width: 100% !important;
   }
 }

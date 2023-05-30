@@ -1,0 +1,17 @@
+.project h1 {
+  text-align: center;
+  padding: 10rem 7%;
+}
+
+.project .container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.project .container .card {
+  width: 20%;
+  border: 1px solid #000;
+}
+.project .container .card img {
+  width: 100%;
+}
